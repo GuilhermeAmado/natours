@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuilhermeAmado/natours.git"
+  },
+  "author": "Guilherme Amado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuilhermeAmado/natours/issues"
+  },
+  "homepage": "https://github.com/GuilhermeAmado/natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
