@@ -53,3 +53,16 @@
     grid-auto-flow: column;
     gap: 6rem;
 }
+
+.section-stories {
+    position: relative;
+    padding: 15rem 0;
+}
+
+.story {
+    display: flex;
+    align-items: center;
+    &:not(:last-child) {
+        margin-bottom: 10rem;
+    }
+}
